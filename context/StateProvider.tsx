@@ -1,6 +1,4 @@
-import { BooleanColumnStatisticsData } from "aws-sdk/clients/glue"
-import { bool } from "aws-sdk/clients/redshiftdata"
-import React, { useContext, useState, createContext } from "react"
+import { useContext, useState, createContext } from "react"
 
 const StateContext = createContext(
     {} as {
